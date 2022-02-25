@@ -1,0 +1,194 @@
+body{
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+header{
+     background: rgb(45,51,51);
+
+     background: linear-gradient(90deg, rgba(45,51,51,1) 46%, rgba(102,59,16,1) 100%);
+
+	 color: red;
+
+	 width: 1900px; 
+
+	 margin: auto; 
+
+}
+
+.flex{
+	 display: flex;
+	 justify-content: 
+
+}
+
+header .logo a{
+	 color: yellow; 
+
+	 text-decoration: none;
+
+
+} 
+ 
+ header nav a {
+         color: red;
+
+         text-decoration: none;
+
+         font-size: 30px;
+
+         padding: 20px;
+
+         display: block;
+
+ }
+
+ .logo{
+
+ 	 flex-basis: 30%;
+
+      
+ }
+
+ nav{
+ 	 flex-basis: 70%;
+
+ }
+ 
+ nav ul{
+ 	 display: flex;
+
+ 	 justify-content: flex-end;
+
+ 	 list-style: none; 
+
+ }
+
+ header nav a:hover{
+
+ 	 color: blue;
+ }
+
+
+
+.banner-section{
+	 background: rgb(255,255,255);
+
+	 text-align: center;
+
+	 padding: 50px;
+}
+
+
+.banner-section img{
+	 height: 460px;
+
+	 width: 100%;
+
+	 object-fit: cover;
+
+	 border-radius: 15px;
+}
+
+.feature-section{
+	 padding-top:  60px;
+
+	 padding-bottom: 60px;
+
+}
+
+
+.feature{
+	 padding: 20px;
+
+	 text-align: center;
+
+}
+
+
+.feature h2{
+	font-size: 28px;
+	margin: 0;
+
+
+}
+
+
+.feature p{
+	font-size: 20px; 
+	margin: 0;
+	padding-top: 20px;
+}
+
+
+.aboutme-section{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+
+.aboutme{
+	flex-basis: 60%;
+}
+
+
+.mypicture{
+	flex-basis: 40%;
+	padding: 30px;
+
+}
+
+
+.mypicture img{
+	width: 100%;
+	border-radius:  15px;
+	box-shadow: 9px 8px 50px 0px #0000006e
+}
+
+
+.aboutme p{
+	font-size: 36px;
+	font-weight: 700;
+	margin: 0;
+}
+
+
+.about-me span{
+	color: blue;
+	text-transform: uppercase;
+}
+
+
+.shape{
+	          width: auto;
+		      position: absolute;
+ 
+
+}
+
+
+.shape1{
+	          width: auto;
+	          position: absolute;
+
+
+}
+
+
+.shape2{
+		      width: auto;
+	          position: absolute;
+
+
+}
+
+
+.shape3{
+	          width: auto;
+	          position: absolute;
+
+
+}
